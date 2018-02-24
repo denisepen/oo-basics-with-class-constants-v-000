@@ -21,4 +21,5 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
+shoe.BRANDS = BRANDS.uniq
 end
