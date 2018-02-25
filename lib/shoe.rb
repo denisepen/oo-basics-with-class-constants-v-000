@@ -17,7 +17,7 @@ class Shoe
 
   def brand
     @brand
-
+    self.BRAND = BRAND.uniq
   end
 
 
